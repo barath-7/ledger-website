@@ -7,3 +7,55 @@
 .text-secondary {
     color: #0285d0;
 }
+
+/* button class */
+/* bg classes */
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    background: #28a745;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-primary, .bg-primary {
+    background: #28a745;
+    color: #fff;
+}
+
+.btn-secondary, .bg-secondary {
+    background: #0285d0;
+    color: #fff;
+}
+
+.btn-dark, .bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.btn-light, .bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* flex items */
+
+.flex-items{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.flex-items > div {
+    padding: 20px;
+}
+
